@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0307014922B1366B0031E317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307014822B1366B0031E317 /* AppDelegate.swift */; };
-		0307014B22B1366B0031E317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307014A22B1366B0031E317 /* ViewController.swift */; };
 		0307014E22B1366B0031E317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0307014C22B1366B0031E317 /* Main.storyboard */; };
 		0307015022B1366E0031E317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0307014F22B1366E0031E317 /* Assets.xcassets */; };
 		0307015322B1366E0031E317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0307015122B1366E0031E317 /* LaunchScreen.storyboard */; };
 		0307015E22B1366E0031E317 /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307015D22B1366E0031E317 /* WeatherTests.swift */; };
 		0307016922B1366E0031E317 /* WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307016822B1366E0031E317 /* WeatherUITests.swift */; };
+		030701A222B138320031E317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0307017822B138320031E317 /* Main.storyboard */; };
+		030701A322B138320031E317 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307017A22B138320031E317 /* Contants.swift */; };
+		030701A622B138320031E317 /* CoreServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307018022B138320031E317 /* CoreServiceLocator.swift */; };
+		030701A722B138320031E317 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307018222B138320031E317 /* Error.swift */; };
+		030701AA22B138320031E317 /* BaseApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307018822B138320031E317 /* BaseApiManager.swift */; };
+		030701AB22B138320031E317 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307018B22B138320031E317 /* UIView.swift */; };
+		030701AC22B138320031E317 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307018C22B138320031E317 /* UITableView.swift */; };
+		030701AD22B138320031E317 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307018D22B138320031E317 /* UITableViewCell.swift */; };
+		030701AE22B138320031E317 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307018E22B138320031E317 /* UIImage.swift */; };
+		030701AF22B138330031E317 /* FrontServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307019122B138320031E317 /* FrontServiceLocator.swift */; };
+		030701B222B138330031E317 /* FlowControllerServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307019622B138320031E317 /* FlowControllerServiceLocator.swift */; };
+		030701B322B138330031E317 /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307019722B138320031E317 /* FlowController.swift */; };
+		030701B922B138330031E317 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030701A022B138320031E317 /* BaseViewController.swift */; };
+		030701BA22B138330031E317 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030701A122B138320031E317 /* Presenter.swift */; };
+		030701BD22B1383B0031E317 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030701BC22B1383B0031E317 /* ServiceLocator.swift */; };
 		14157CE78A4DEA8D55DF8919 /* Pods_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DE813BC120B59C3AF08BD3 /* Pods_Weather.framework */; };
 		4F8128655C3414B586B78AB8 /* Pods_WeatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455E92D0CD34F7AA33FE713C /* Pods_WeatherTests.framework */; };
 		8DD98F22B93A4164C2C6608B /* Pods_WeatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B296909E83DE7A686C5C0DFD /* Pods_WeatherUITests.framework */; };
@@ -39,7 +53,6 @@
 /* Begin PBXFileReference section */
 		0307014522B1366B0031E317 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0307014822B1366B0031E317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0307014A22B1366B0031E317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0307014D22B1366B0031E317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0307014F22B1366E0031E317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0307015222B1366E0031E317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +63,21 @@
 		0307016422B1366E0031E317 /* WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0307016822B1366E0031E317 /* WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITests.swift; sourceTree = "<group>"; };
 		0307016A22B1366E0031E317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0307017922B138320031E317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0307017A22B138320031E317 /* Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		0307018022B138320031E317 /* CoreServiceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreServiceLocator.swift; sourceTree = "<group>"; };
+		0307018222B138320031E317 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		0307018822B138320031E317 /* BaseApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseApiManager.swift; sourceTree = "<group>"; };
+		0307018B22B138320031E317 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		0307018C22B138320031E317 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		0307018D22B138320031E317 /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		0307018E22B138320031E317 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		0307019122B138320031E317 /* FrontServiceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontServiceLocator.swift; sourceTree = "<group>"; };
+		0307019622B138320031E317 /* FlowControllerServiceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowControllerServiceLocator.swift; sourceTree = "<group>"; };
+		0307019722B138320031E317 /* FlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
+		030701A022B138320031E317 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		030701A122B138320031E317 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		030701BC22B1383B0031E317 /* ServiceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
 		04DE813BC120B59C3AF08BD3 /* Pods_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CC4BFD5A145AE4397A8E48 /* Pods-WeatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherUITests/Pods-WeatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1BEEE5096A5A7E9DC559052A /* Pods-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather.debug.xcconfig"; path = "Target Support Files/Pods-Weather/Pods-Weather.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +142,10 @@
 		0307014722B1366B0031E317 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				0307017722B138320031E317 /* Common */,
+				0307017C22B138320031E317 /* Core */,
+				0307018922B138320031E317 /* Front */,
+				030701BB22B1383B0031E317 /* ServiceLocator */,
 				0307017622B136F40031E317 /* Resources */,
 				0307015422B1366E0031E317 /* Info.plist */,
 			);
@@ -142,12 +174,150 @@
 			isa = PBXGroup;
 			children = (
 				0307014822B1366B0031E317 /* AppDelegate.swift */,
-				0307014A22B1366B0031E317 /* ViewController.swift */,
 				0307014C22B1366B0031E317 /* Main.storyboard */,
 				0307014F22B1366E0031E317 /* Assets.xcassets */,
 				0307015122B1366E0031E317 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0307017722B138320031E317 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0307017822B138320031E317 /* Main.storyboard */,
+				0307017A22B138320031E317 /* Contants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0307017C22B138320031E317 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0307017D22B138320031E317 /* Repository */,
+				0307017F22B138320031E317 /* ServiceLocator */,
+				0307018122B138320031E317 /* Common */,
+				0307018322B138320031E317 /* Model */,
+				0307018522B138320031E317 /* UseCase */,
+				0307018722B138320031E317 /* Base */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0307017D22B138320031E317 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		0307017F22B138320031E317 /* ServiceLocator */ = {
+			isa = PBXGroup;
+			children = (
+				0307018022B138320031E317 /* CoreServiceLocator.swift */,
+			);
+			path = ServiceLocator;
+			sourceTree = "<group>";
+		};
+		0307018122B138320031E317 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0307018222B138320031E317 /* Error.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0307018322B138320031E317 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0307018522B138320031E317 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		0307018722B138320031E317 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0307018822B138320031E317 /* BaseApiManager.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0307018922B138320031E317 /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				0307018A22B138320031E317 /* Extension */,
+				0307018F22B138320031E317 /* Common */,
+				0307019822B138320031E317 /* ViewController */,
+				0307019F22B138320031E317 /* Base */,
+			);
+			path = Front;
+			sourceTree = "<group>";
+		};
+		0307018A22B138320031E317 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0307018B22B138320031E317 /* UIView.swift */,
+				0307018C22B138320031E317 /* UITableView.swift */,
+				0307018D22B138320031E317 /* UITableViewCell.swift */,
+				0307018E22B138320031E317 /* UIImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0307018F22B138320031E317 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0307019022B138320031E317 /* ServiceLocator */,
+				0307019522B138320031E317 /* Flow */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0307019022B138320031E317 /* ServiceLocator */ = {
+			isa = PBXGroup;
+			children = (
+				0307019122B138320031E317 /* FrontServiceLocator.swift */,
+			);
+			path = ServiceLocator;
+			sourceTree = "<group>";
+		};
+		0307019522B138320031E317 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				0307019622B138320031E317 /* FlowControllerServiceLocator.swift */,
+				0307019722B138320031E317 /* FlowController.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		0307019822B138320031E317 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0307019F22B138320031E317 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				030701A022B138320031E317 /* BaseViewController.swift */,
+				030701A122B138320031E317 /* Presenter.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		030701BB22B1383B0031E317 /* ServiceLocator */ = {
+			isa = PBXGroup;
+			children = (
+				030701BC22B1383B0031E317 /* ServiceLocator.swift */,
+			);
+			path = ServiceLocator;
 			sourceTree = "<group>";
 		};
 		4B4624242DFF8DCB36EBF94F /* Pods */ = {
@@ -160,7 +330,6 @@
 				12CC4BFD5A145AE4397A8E48 /* Pods-WeatherUITests.debug.xcconfig */,
 				F80045974840B6F1C0CEBE75 /* Pods-WeatherUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -285,6 +454,7 @@
 				0307015322B1366E0031E317 /* LaunchScreen.storyboard in Resources */,
 				0307015022B1366E0031E317 /* Assets.xcassets in Resources */,
 				0307014E22B1366B0031E317 /* Main.storyboard in Resources */,
+				030701A222B138320031E317 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +572,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0307014B22B1366B0031E317 /* ViewController.swift in Sources */,
+				030701AA22B138320031E317 /* BaseApiManager.swift in Sources */,
+				030701AB22B138320031E317 /* UIView.swift in Sources */,
+				030701AF22B138330031E317 /* FrontServiceLocator.swift in Sources */,
+				030701A622B138320031E317 /* CoreServiceLocator.swift in Sources */,
+				030701AC22B138320031E317 /* UITableView.swift in Sources */,
+				030701BA22B138330031E317 /* Presenter.swift in Sources */,
+				030701B222B138330031E317 /* FlowControllerServiceLocator.swift in Sources */,
+				030701BD22B1383B0031E317 /* ServiceLocator.swift in Sources */,
 				0307014922B1366B0031E317 /* AppDelegate.swift in Sources */,
+				030701B922B138330031E317 /* BaseViewController.swift in Sources */,
+				030701B322B138330031E317 /* FlowController.swift in Sources */,
+				030701A722B138320031E317 /* Error.swift in Sources */,
+				030701A322B138320031E317 /* Contants.swift in Sources */,
+				030701AD22B138320031E317 /* UITableViewCell.swift in Sources */,
+				030701AE22B138320031E317 /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +636,14 @@
 				0307015222B1366E0031E317 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0307017822B138320031E317 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0307017922B138320031E317 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
