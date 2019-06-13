@@ -7,7 +7,10 @@ class FrontServiceLocator: ServiceLocatorModule {
     
     private func provideSearchViewController() -> SearchViewController {
         let viewController = SearchViewController()
-        viewController.searchPresenter = SearchPresenter(view: viewController)
+        viewController.searchPresenter = SearchPresenter(
+            view: viewController,
+            usecase: ServiceLocator.inject()
+        )
         return viewController
     }
 }

@@ -2,7 +2,7 @@ import Foundation
 
 struct Climate: Codable {
     var coord: Coordinates?
-    var weather: Weather?
+    var weather: [Weather]?
     var sys: Sys?
     var base: String?
     var visibility: Int?
@@ -15,14 +15,14 @@ struct Climate: Codable {
 }
 
 struct Coordinates: Codable {
-    var lat: Int?
-    var lon: Int?
+    var lon: Double?
+    var lat: Double?
 }
 
 struct Sys: Codable {
     var country: String?
-    var sunrise: String?
-    var sunset: String?
+    var sunrise: Double?
+    var sunset: Double?
 }
 
 struct Weather: Codable {
@@ -33,10 +33,10 @@ struct Weather: Codable {
 }
 
 struct Wind: Codable {
-    var speed: Int?
-    var deg: Int?
+    var speed: Double?
+    var deg: Double?
 }
 
 struct Clouds: Codable {
-    var all: Int?
+    var all: Double?
 }
